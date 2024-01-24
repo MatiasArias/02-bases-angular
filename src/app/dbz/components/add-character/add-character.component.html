@@ -1,5 +1,5 @@
 <h4>Agregar personaje</h4>
-<form class="row" (ngSumbit)="emitCharacter()">
+<form class="row" (ngSumbit)="emitCharacter">
   <input
     type="text"
     name="name"
@@ -16,5 +16,5 @@
     type="sumbit"
     class="btn btn-primary"
     (click)="emitCharacter()">Agregar</button>
-  <pre>{{character | json}}</pre>
+  <!-- <pre>{{character | json}}</pre> -->
 </form>
